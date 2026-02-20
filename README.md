@@ -15,9 +15,10 @@ Please set the OPENAI_API_KEY before running the code
 ### Data: 
 Data cleanup is required and currently the following is handled
 
-
+starting prefixes are gs:// and gc://
 - gs://amt-creator-media-cache/instagram/posts/post-pics/3682419129890575942.jpg
 - gc://amt-creator-media-cache/instagram/posts/post-pics/3682419129890575942.jpg
+
 
 
 ### Searching the data is done using the search.py file. Since I have indexed 2 users, I am displaying only the first user.
