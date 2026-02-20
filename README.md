@@ -8,14 +8,16 @@ Poetry shell
 ```
 
 
-Data cleanup is required and currently the following is handled
-
 
 Please set the OPENAI_API_KEY before running the code
 
 
-gs://amt-creator-media-cache/instagram/posts/post-pics/3682419129890575942.jpg
-gc://amt-creator-media-cache/instagram/posts/post-pics/3682419129890575942.jpg
+### Data: 
+Data cleanup is required and currently the following is handled
+
+
+- gs://amt-creator-media-cache/instagram/posts/post-pics/3682419129890575942.jpg
+- gc://amt-creator-media-cache/instagram/posts/post-pics/3682419129890575942.jpg
 
 
 ### Searching the data is done using the search.py file. Since I have indexed 2 users, I am displaying only the first user.
@@ -29,10 +31,13 @@ Result 1:
   Distance: 1.0037
 ```
 
-Result interpretation:
-I checked celestialjojo's image: https://storage.googleapis.com/amt-creator-media-cache/instagram/posts/post-pics/3682419129890575942.jpg
-Comparing that with the second result https://storage.googleapis.com/amt-creator-media-cache/instagram/posts/post-pics/3718700956449060222.jpg
-it makes sense that the celestialjojo is more relevant to the query.
+### Result interpretation:
+
+I checked celestialjojo's image: [Image 1](https://storage.googleapis.com/amt-creator-media-cache/instagram/posts/post-pics/3682419129890575942.jpg)
+
+Comparing that with the second result: [Image 2](https://storage.googleapis.com/amt-creator-media-cache/instagram/posts/post-pics/3718700956449060222.jpg)
+
+It makes sense that celestialjojo is more relevant to the query.
 
 
 ## Please skip the indexing step as I have indexed 2 users and 10 images per user.
